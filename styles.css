@@ -1,0 +1,56 @@
+/* Center align the header text */
+/* Background image for the entire app */
+body {
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+}
+
+/* Background image for the header */
+.card-header {
+    background-image: url('/assets/header-background.jpg');
+    background-size: cover;
+    color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Style the card headers */
+.card-header {
+    background-color: #f8f9fa;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Style the card body */
+.card-body {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+/* Add some padding to the cards */
+.card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Style the buttons */
+.btn-link {
+    color: #007bff;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Add a hover effect to buttons */
+.btn-link:hover {
+    color: #0056b3;
+}
+
+/* Style the iframe for better visibility */
+.iframe-plot {
+    border: none;
+    border-radius: 8px;
+}
